@@ -928,8 +928,8 @@ footer a {
         }
          
         .carousel-image {
-          height: 400px; /* or any fixed height you want */
-          width: 100%; /* takes full width of parent */
+          height: 400px; 
+          width: 100%; 
           object-fit: cover;
         }
         
