@@ -14,8 +14,15 @@ body {
   text-transform: capitalize;
 }
 
-
-
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
